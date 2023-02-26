@@ -16,11 +16,24 @@ Product - User is a many to many relationship.
 
 ## Setup/Installation Requirements
 
+- Create a new folder for your project.In the terminal by running mkdir my-project-folder.
+- Change into the project folder by running cd my-project-folder.
+- Initialize a new Git repository by running git init.
+- Prepare all initial files e.g gemfile and run bundle install.
+- Do not forget to include the config files,Rakefile as well as the db files.
+- Create a migration for the reviews table, with columns for product_id, user_id, star_rating, and comment.
+- Create models for the User, Review, and Product classes, and define the associations between them.
+- Create class and instance methods
+- Use the seeds.rb file to create sample data to test your models and associations.
+- Write sample instances in the run file to test out the methods created above.
+- Test your code in the console to ensure it is working properly.
+
 ## Requirements
 
 Ruby
 
-BDD/Deliverables
+## BDD/Deliverables
+
 Create the following classes and their respective methods.
 
 Setup your application so it runs from a configured run file.
