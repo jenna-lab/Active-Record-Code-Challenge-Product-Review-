@@ -10,9 +10,12 @@ class Product < ActiveRecord::Base
 #puts in the terminal a string representing each review for this product
      def print_all_reviews
           reviews.each { |review| review.print_review }
+          #    #Product.second.print_all_reviews
      end
 #Returns a float representing the average star rating for all reviews for this product
      def average_rating
           self.reviews.average(:star_rating).to_f
+          #to float
+          #Product.first.average_rating
      end
 end
