@@ -100,6 +100,10 @@ products for the first user in the database based on your seed data; and Review.
   Takes a Product (an instance of the Product class) and removes all of this user's reviews for that product
   You will have to delete any rows from the reviews table associated with this user and the product
 
+  ## Videolink
+
+  [![Watch the video](video)](https://drive.google.com/file/d/1lr2XH6d6odpTILu_aJW3cG9hH79rG7B_/view)
+
 ## Bugs
 
 There are no bugs in the project.
